@@ -40,7 +40,7 @@
     old: null,
     badge: null,
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (3).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM.jpeg",
     desc: "Perfect for receptions, engagements and festive occasions."
   },
   {
@@ -52,7 +52,7 @@
     old: null,
     badge: null,
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (4).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.24 PM.jpeg",
     desc: "Beautiful silk lehenga with timeless traditional elegance."
   },
   {
@@ -64,7 +64,7 @@
     old: 7499,
     badge: "Sale",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (5).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.24 PM (2).jpeg",
     desc: "Luxury party wear lehenga with heavy embellishments."
   },
   {
@@ -76,7 +76,7 @@
     old: null,
     badge: "New",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (6).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.24 PM (1).jpeg",
     desc: "Floral festive lehenga perfect for celebrations."
   },
 
@@ -90,7 +90,7 @@
     old: null,
     badge: "New",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (7).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM.jpeg",
     desc: "Colorful Navratri outfit designed for Garba nights."
   },
   {
@@ -102,7 +102,7 @@
     old: null,
     badge: "Bestseller",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (8).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM (3).jpeg",
     desc: "Traditional mirror-work Garba outfit."
   },
   {
@@ -114,7 +114,7 @@
     old: 4699,
     badge: "Sale",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (9).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM (2).jpeg",
     desc: "Premium designer Navratri collection."
   },
   {
@@ -126,7 +126,7 @@
     old: null,
     badge: null,
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (10).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM (1).jpeg",
     desc: "Comfortable Garba wear for all-night celebrations."
   },
   {
@@ -138,7 +138,7 @@
     old: null,
     badge: "New",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (11).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.24 PM (4).jpeg",
     desc: "Stylish ethnic Navratri collection."
   },
   {
@@ -150,7 +150,7 @@
     old: null,
     badge: null,
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (12).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.24 PM (3).jpeg",
     desc: "Exclusive premium Navratri special outfit."
   },
 
@@ -164,7 +164,7 @@
     old: null,
     badge: "New",
     sizes: ["S","M","L"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (13).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM (4).jpeg",
     desc: "Stylish western dress for casual outings."
   },
   {
@@ -176,7 +176,7 @@
     old: null,
     badge: null,
     sizes: ["S","M","L"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (14).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM (5).jpeg",
     desc: "Trendy western outfit for everyday fashion."
   },
   {
@@ -188,7 +188,7 @@
     old: 3299,
     badge: "Sale",
     sizes: ["S","M","L"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (15).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.25 PM (6).jpeg",
     desc: "Elegant party wear western dress."
   }
 ];
