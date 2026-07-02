@@ -16,7 +16,7 @@
     old: 6999,
     badge: "Bestseller",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (1).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (2).jpeg",
     desc: "Premium embroidered bridal lehenga crafted for weddings and grand celebrations."
   },
   {
@@ -28,7 +28,7 @@
     old: null,
     badge: "New",
     sizes: ["S","M","L","XL"],
-    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (2).jpeg",
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (1).jpeg",
     desc: "Elegant designer lehenga with intricate embroidery."
   },
   {
