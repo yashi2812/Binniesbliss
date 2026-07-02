@@ -6,19 +6,192 @@
 
   /* ---------------- PRODUCT DATA ---------------- */
   const PRODUCTS = [
-    { id:"p01", name:"Cloud Nine Tee", cat:"tee", catLabel:"Oversized Tee", price:1290, old:null, color:"#EFE2FB", tee:"#B98CE0", accent:"#FF5FA2", shape:"tee-shape", badge:"New", sizes:["S","M","L","XL"], desc:"Our softest oversized tee, brushed cotton with a boxy drop-shoulder fit. Cloud print wraps from chest to back." },
-    { id:"p02", name:"Sunday Soft Tee", cat:"tee", catLabel:"Oversized Tee", price:1290, old:null, color:"#FFF3DA", tee:"#FFC24B", accent:"#E23F86", shape:"tee-shape", badge:null, sizes:["S","M","L","XL"], desc:"Butter-yellow oversized tee for slow mornings, iced coffee, and nowhere to be." },
-    { id:"p03", name:"Good Vibes Crop", cat:"crop", catLabel:"Crop Top", price:990, old:null, color:"#FFE3EC", tee:"#FF7FA8", accent:"#3D1F4D", shape:"crop-shape", badge:"New", sizes:["S","M","L"], desc:"A cropped, relaxed fit crop tee with ribbed hem. Pairs perfectly with the Bliss co-ord bottoms." },
-    { id:"p04", name:"Slow Mornings Tee", cat:"tee", catLabel:"Oversized Tee", price:1290, old:null, color:"#DEF6FB", tee:"#7FD8E8", accent:"#FFC24B", shape:"tee-shape", badge:"Bestseller", sizes:["S","M","L","XL"], desc:"Sky-blue oversized tee, brushed inside for extra softness. Our #1 seller, three drops running." },
-    { id:"p05", name:"Petal Drop Crop", cat:"crop", catLabel:"Crop Top", price:990, old:1190, color:"#FDE3EA", tee:"#E75A82", accent:"#4FBE8C", shape:"crop-shape", badge:"Sale", sizes:["S","M","L"], desc:"Rose-pink cropped tee with a soft petal graphic. Limited restock — almost gone." },
-    { id:"p06", name:"Bliss Co-ord Set", cat:"set", catLabel:"Co-ord Set", price:2190, old:null, color:"#EFE2FB", tee:"#B98CE0", accent:"#FFC24B", shape:"tee-shape", badge:"New", sizes:["S","M","L","XL"], desc:"Oversized tee + matching shorts, cut from the same lilac cotton. One order, one whole vibe." },
-    { id:"p07", name:"Sweet Nothing Tee", cat:"tee", catLabel:"Oversized Tee", price:1190, old:null, color:"#F6EFE2", tee:"#E9D3AE", accent:"#FF5FA2", shape:"tee-shape", badge:null, sizes:["S","M","L","XL"], desc:"Barely-there cream tee with a tonal chest print. Goes with everything, clashes with nothing." },
-    { id:"p08", name:"Golden Hour Crop", cat:"crop", catLabel:"Crop Top", price:990, old:null, color:"#FFEADA", tee:"#FFAE6B", accent:"#3D1F4D", shape:"crop-shape", badge:null, sizes:["S","M","L"], desc:"Peachy crop tee that photographs best at 6pm. Coincidence? We think not." },
-    { id:"p09", name:"Dreamy Days Set", cat:"set", catLabel:"Co-ord Set", price:2190, old:null, color:"#DFF6EC", tee:"#4FBE8C", accent:"#FF5FA2", shape:"tee-shape", badge:"Sold out", soldOut:true, sizes:["S","M","L","XL"], desc:"Mint co-ord set, oversized top with wide-leg pants. Back in stock next Friday." },
-    { id:"p10", name:"Honey Glow Tote", cat:"accessory", catLabel:"Accessory", price:690, old:null, color:"#FFF1D6", tee:"#F2A93B", accent:"#FF5FA2", shape:"tote-shape", badge:null, sizes:["One Size"], desc:"Heavy canvas tote, hand-finished straps. Fits a laptop, a water bottle, and every impulse buy." },
-    { id:"p11", name:"Bliss Bucket Hat", cat:"accessory", catLabel:"Accessory", price:590, old:null, color:"#FFE0EC", tee:"#FF5FA2", accent:"#FFC24B", shape:"hat-shape", badge:null, sizes:["One Size"], desc:"Reversible bucket hat, two prints in one. Sun protection that still looks cute indoors." },
-    { id:"p12", name:"Cloud Scrunchie Trio", cat:"accessory", catLabel:"Accessory", price:390, old:null, color:"#DEF6FB", tee:"#7FD8E8", accent:"#B98CE0", shape:"hat-shape", badge:null, sizes:["One Size"], desc:"Three oversized scrunchies in coordinating Bliss shades. Gentle on hair, loud on shelfies." },
-  ];
+  // LEHENGAS
+  {
+    id: "p01",
+    name: "Royal Bridal Lehenga",
+    cat: "lehenga",
+    catLabel: "Lehenga",
+    price: 5999,
+    old: 6999,
+    badge: "Bestseller",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (1).jpeg",
+    desc: "Premium embroidered bridal lehenga crafted for weddings and grand celebrations."
+  },
+  {
+    id: "p02",
+    name: "Pink Designer Lehenga",
+    cat: "lehenga",
+    catLabel: "Lehenga",
+    price: 5499,
+    old: null,
+    badge: "New",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (2).jpeg",
+    desc: "Elegant designer lehenga with intricate embroidery."
+  },
+  {
+    id: "p03",
+    name: "Pastel Wedding Lehenga",
+    cat: "lehenga",
+    catLabel: "Lehenga",
+    price: 6299,
+    old: null,
+    badge: null,
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (3).jpeg",
+    desc: "Perfect for receptions, engagements and festive occasions."
+  },
+  {
+    id: "p04",
+    name: "Traditional Silk Lehenga",
+    cat: "lehenga",
+    catLabel: "Lehenga",
+    price: 5799,
+    old: null,
+    badge: null,
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (4).jpeg",
+    desc: "Beautiful silk lehenga with timeless traditional elegance."
+  },
+  {
+    id: "p05",
+    name: "Luxury Party Lehenga",
+    cat: "lehenga",
+    catLabel: "Lehenga",
+    price: 6499,
+    old: 7499,
+    badge: "Sale",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (5).jpeg",
+    desc: "Luxury party wear lehenga with heavy embellishments."
+  },
+  {
+    id: "p06",
+    name: "Floral Festive Lehenga",
+    cat: "lehenga",
+    catLabel: "Lehenga",
+    price: 5299,
+    old: null,
+    badge: "New",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (6).jpeg",
+    desc: "Floral festive lehenga perfect for celebrations."
+  },
+
+  // NAVRATRI
+  {
+    id: "p07",
+    name: "Navratri Chaniya Choli",
+    cat: "navratri",
+    catLabel: "Navratri Special",
+    price: 3499,
+    old: null,
+    badge: "New",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (7).jpeg",
+    desc: "Colorful Navratri outfit designed for Garba nights."
+  },
+  {
+    id: "p08",
+    name: "Mirror Work Garba Set",
+    cat: "navratri",
+    catLabel: "Navratri Special",
+    price: 3899,
+    old: null,
+    badge: "Bestseller",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (8).jpeg",
+    desc: "Traditional mirror-work Garba outfit."
+  },
+  {
+    id: "p09",
+    name: "Designer Navratri Dress",
+    cat: "navratri",
+    catLabel: "Navratri Special",
+    price: 4299,
+    old: 4699,
+    badge: "Sale",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (9).jpeg",
+    desc: "Premium designer Navratri collection."
+  },
+  {
+    id: "p10",
+    name: "Festive Garba Wear",
+    cat: "navratri",
+    catLabel: "Navratri Special",
+    price: 3699,
+    old: null,
+    badge: null,
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (10).jpeg",
+    desc: "Comfortable Garba wear for all-night celebrations."
+  },
+  {
+    id: "p11",
+    name: "Ethnic Chaniya Set",
+    cat: "navratri",
+    catLabel: "Navratri Special",
+    price: 3999,
+    old: null,
+    badge: "New",
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (11).jpeg",
+    desc: "Stylish ethnic Navratri collection."
+  },
+  {
+    id: "p12",
+    name: "Premium Navratri Collection",
+    cat: "navratri",
+    catLabel: "Navratri Special",
+    price: 4599,
+    old: null,
+    badge: null,
+    sizes: ["S","M","L","XL"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (12).jpeg",
+    desc: "Exclusive premium Navratri special outfit."
+  },
+
+  // WESTERN
+  {
+    id: "p13",
+    name: "Elegant Western Dress",
+    cat: "western",
+    catLabel: "Western Wear",
+    price: 2299,
+    old: null,
+    badge: "New",
+    sizes: ["S","M","L"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (13).jpeg",
+    desc: "Stylish western dress for casual outings."
+  },
+  {
+    id: "p14",
+    name: "Casual Western Outfit",
+    cat: "western",
+    catLabel: "Western Wear",
+    price: 2499,
+    old: null,
+    badge: null,
+    sizes: ["S","M","L"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (14).jpeg",
+    desc: "Trendy western outfit for everyday fashion."
+  },
+  {
+    id: "p15",
+    name: "Premium Party Dress",
+    cat: "western",
+    catLabel: "Western Wear",
+    price: 2899,
+    old: 3299,
+    badge: "Sale",
+    sizes: ["S","M","L"],
+    image: "WhatsApp Image 2026-07-02 at 6.20.23 PM (15).jpeg",
+    desc: "Elegant party wear western dress."
+  }
+];
 
   const REVIEWS = [
     { name:"Ananya R.", meta:"Cloud Nine Tee · Verified", text:"Genuinely feels like wearing a cloud. Ordered a second one before the first even arrived." },
